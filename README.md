@@ -22,8 +22,8 @@
 # Execution
 ## Server
 
-1. python server.py --server-address <ip_address:port> --test-file <directory of server_data> 
-  --client-number <Minimum number of clients> ----num-rounds <Number of Federated Rounds>
+1. python server.py --server-address [ip_address:port] --test-file [directory of server_data] 
+  --client-number [Minimum number of clients] --num-rounds [Number of Federated Rounds]
 2. default server-address : 127.0.0.1:8080
 3. default client-number : 2 
 4. default num-rounds : 2 
