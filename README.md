@@ -16,8 +16,9 @@
 1. server_data - This directory contains one file (test.conll) to evaluate the performance of aggregated model on server side.
 2. client-1-data - This directory contains three files (train.conll, val.conll, test.conll) to train and evaluate the performance of model on one of the client side.
 3. client-2-data - This directory contains three files (train.conll, val.conll, test.conll) to train and evaluate the performance of model on one of the client side.
-server.py- for server instance
-client.py- for client instance
+4. server.py- for server instance
+5. client.py- for client instance
 
 # Execution
-##Server
+## Server
+
