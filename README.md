@@ -27,7 +27,16 @@
 2. default server-address : 127.0.0.1:8080
 3. default client-number : 2 
 4. default num-rounds : 2 
+5. Have to specify the test-file
   
 ##  Client
   
-  
+ 1. python client.py --server-address [ip_address:port] --directory [directory of client_data] --batch-size [batch size for training] --local-epochs [epochs for training] --learning-rate [learning rate for training] --noise-multiplier [noise multiplier for differential privacy] --l2-norm-clip [l2 normalization clippping factor for differential privacy] --microbatches [number of microbatches for differential privacy]
+2. default server-address : 127.0.0.1:8080
+3. default batch-size : 32 
+4. default local-epochs : 5
+5. default learning-rate : 0.25
+6. default noise-multiplier : 1
+7. default l2-norm-clip : 1.5
+8. default microbatches : 1
+9. Have to specify the directory
