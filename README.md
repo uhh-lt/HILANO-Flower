@@ -1,4 +1,4 @@
-# Setting Up Environment
+# Setting Up Environment (For both Server and Client)
 1. python3 -m venv 'sample_env'. [can choose any environment name]
 2. source sample_env/bin/activate
 3. pip install --upgrade pip
@@ -12,4 +12,12 @@
 11. pip install flwr
 12. python -m spacy download en_core_web_lg [for English]
 
+# Contents
+1. server_data - This directory contains one file (test.conll) to evaluate the performance of aggregated model on server side.
+2. client-1-data - This directory contains three files (train.conll, val.conll, test.conll) to train and evaluate the performance of model on one of the client side.
+3. client-2-data - This directory contains three files (train.conll, val.conll, test.conll) to train and evaluate the performance of model on one of the client side.
+server.py- for server instance
+client.py- for client instance
 
+# Execution
+##Server
