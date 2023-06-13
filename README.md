@@ -1,3 +1,8 @@
+# HILANO
+The Purpose of this project is Anonymization with distributed Human in the Loop Learning. 
+Since anonymization is a sequence tagging task, we have taken up Named Entity Recognition model to experiment with. 
+
+
 # Setting Up Environment (For both Server and Client)
 1. python3 -m venv 'sample_env'. [can choose any environment name]
 2. source sample_env/bin/activate
