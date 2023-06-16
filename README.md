@@ -1,7 +1,17 @@
 # HILANO
-The Purpose of this project is Anonymization with distributed Human in the Loop Learning. 
+The Purpose of this project is Anonymization with Distributed Human in the Loop Learning. 
 Since anonymization is a sequence tagging task, we have taken up Named Entity Recognition model to experiment with. 
 
+# Priliminary Study
+The priliminary analysis with our prototype is presented in the Proceedings of the Third Workshop on Privacy in Natural Language Processing (2021). Here is the link to the paper -  https://aclanthology.org/2021.privatenlp-1.4.pdf  .
+The comprehensive analysis paper is coming soon, stay tuned. 
+
+
+# Implementation details
+1. We have used state-of-the-art NER model.
+2. We have used FLower Framework (https://github.com/adap/flower) for our study to incorporate Federated Learning.
+3. We have used tensorflow-privacy (https://github.com/tensorflow/privacy) to incorporate Differential Privacy.
+4. In this repository we present a working framework of our system. Please follow the instructions below.
 
 # Setting Up Environment (For both Server and Client)
 1. python3 -m venv 'sample_env'. [can choose any environment name]
